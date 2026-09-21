@@ -1,0 +1,36 @@
+services:
+  muwajjih-api:
+    platform: linux/amd64
+    build: .
+    image: muwajjih:dev
+    ports:
+      - "8000:8000"
+    environment:
+      MUWAJIH_APP_ENV: compose
+      MUWAJIH_MODEL_PATH: /models/muwajjih_v1.joblib
+      MUWAJIH_MODEL_VERSION: muwajjih-v1
+      MUWAJIH_REDIS_URL: redis://feature-cache:6379/0
+      MUWAJIH_LOG_LEVEL: INFO
+      MUWAJIH_MAX_BATCH_SIZE: "32"
+    depends_on:
+      feature-cache:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/v1/ready', timeout=2)"]
+      interval: 10s
+      timeout: 3s
+      start_period: 20s
+      retries: 3
+
+  feature-cache:
+    image: redis:7-alpine
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    volumes:
+      - feature-cache-data:/data
+
+volumes:
+  feature-cache-data:
