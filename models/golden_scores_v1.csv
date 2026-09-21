@@ -1,0 +1,21 @@
+complaint_id,text,department,priority,confidence
+MWJ-G001,هناك حفرة كبيرة في الطريق قرب المدرسة,roads,normal,0.44612862
+MWJ-G002,street pavement is cracked and damaged,roads,normal,0.41937209
+MWJ-G003,انقطاع المياه منذ الصباح في الحي,water,normal,0.62031371
+MWJ-G004,water pipe is leaking in the neighborhood,water,normal,0.48460315
+MWJ-G005,حاويات النفايات ممتلئة وتفيض,waste,normal,0.67982110
+MWJ-G006,trash has not been collected for days,waste,normal,0.41286094
+MWJ-G007,الكهرباء منقطعة في المبنى,electricity,normal,0.61573141
+MWJ-G008,electric cable is exposed,electricity,normal,0.48376438
+MWJ-G009,دخان يخرج من مبنى مهجور,public_safety,urgent,0.55070532
+MWJ-G010,gas leak emergency near houses,public_safety,urgent,0.52457797
+MWJ-G011,أحتاج رخصة بناء جديدة,permits,normal,0.47477912
+MWJ-G012,how can I renew my shop permit,permits,normal,0.53897983
+MWJ-G013,power is out in the building,electricity,normal,0.38255551
+MWJ-G014,sewage overflow in the street,water,normal,0.31945224
+MWJ-G015,illegal dumping near the public park,public_safety,normal,0.29090398
+MWJ-G016,fire risk near the public park,public_safety,urgent,0.50248323
+MWJ-G017,رائحة تسرب الغاز في الشارع,public_safety,urgent,0.48218103
+MWJ-G018,broken traffic sign at the intersection,roads,normal,0.42015759
+MWJ-G019,ما المستندات المطلوبة للرخصة,permits,normal,0.55778974
+MWJ-G020,street light pole damaged after accident,roads,normal,0.46194281
