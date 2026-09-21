@@ -1,0 +1,193 @@
+text,department,priority
+pothole on the main road near the school; please help,roads,normal
+pothole on the main road near the school; please review,roads,normal
+طريق فيه حفرة كبيرة قرب المدرسة؛ يرجى المعالجة,roads,normal
+طريق فيه حفرة كبيرة قرب المدرسة؛ يرجى المراجعة,roads,normal
+طريق فيه حفرة كبيرة قرب المدرسة؛ احتاج المساعدة,roads,normal
+damaged street pavement needs repair; please help,roads,normal
+damaged street pavement needs repair; please review,roads,normal
+رصف الشارع متضرر ويحتاج إصلاح؛ يرجى المعالجة,roads,normal
+رصف الشارع متضرر ويحتاج إصلاح؛ يرجى المراجعة,roads,normal
+رصف الشارع متضرر ويحتاج إصلاح؛ احتاج المساعدة,roads,normal
+broken traffic sign at the intersection; please help,roads,normal
+broken traffic sign at the intersection; please review,roads,normal
+لوحة مرورية مكسورة عند التقاطع؛ يرجى المعالجة,roads,normal
+لوحة مرورية مكسورة عند التقاطع؛ يرجى المراجعة,roads,normal
+لوحة مرورية مكسورة عند التقاطع؛ احتاج المساعدة,roads,normal
+street light pole damaged after accident; please help,roads,normal
+street light pole damaged after accident; please review,roads,normal
+عمود إنارة الشارع متضرر بعد حادث؛ يرجى المعالجة,roads,normal
+عمود إنارة الشارع متضرر بعد حادث؛ يرجى المراجعة,roads,normal
+عمود إنارة الشارع متضرر بعد حادث؛ احتاج المساعدة,roads,normal
+sidewalk is cracked and unsafe; please help,roads,normal
+sidewalk is cracked and unsafe; please review,roads,normal
+الرصيف متشقق وغير آمن؛ يرجى المعالجة,roads,normal
+الرصيف متشقق وغير آمن؛ يرجى المراجعة,roads,normal
+الرصيف متشقق وغير آمن؛ احتاج المساعدة,roads,normal
+road surface collapsed after rain; please help,roads,normal
+road surface collapsed after rain; please review,roads,normal
+هبوط في سطح الطريق بعد المطر؛ يرجى المعالجة,roads,normal
+هبوط في سطح الطريق بعد المطر؛ يرجى المراجعة,roads,normal
+هبوط في سطح الطريق بعد المطر؛ احتاج المساعدة,roads,normal
+water pipe is leaking in the neighborhood; please help,water,normal
+water pipe is leaking in the neighborhood; please review,water,normal
+تسرب من أنبوب المياه في الحي؛ يرجى المعالجة,water,normal
+تسرب من أنبوب المياه في الحي؛ يرجى المراجعة,water,normal
+تسرب من أنبوب المياه في الحي؛ احتاج المساعدة,water,normal
+no water supply since this morning; please help,water,normal
+no water supply since this morning; please review,water,normal
+انقطاع المياه منذ هذا الصباح؛ يرجى المعالجة,water,normal
+انقطاع المياه منذ هذا الصباح؛ يرجى المراجعة,water,normal
+انقطاع المياه منذ هذا الصباح؛ احتاج المساعدة,water,normal
+water meter is broken; please help,water,normal
+water meter is broken; please review,water,normal
+عداد المياه متعطل؛ يرجى المعالجة,water,normal
+عداد المياه متعطل؛ يرجى المراجعة,water,normal
+عداد المياه متعطل؛ احتاج المساعدة,water,normal
+sewage overflow in the street; please help,water,normal
+sewage overflow in the street; please review,water,normal
+فيضان مياه الصرف الصحي في الشارع؛ يرجى المعالجة,water,normal
+فيضان مياه الصرف الصحي في الشارع؛ يرجى المراجعة,water,normal
+فيضان مياه الصرف الصحي في الشارع؛ احتاج المساعدة,water,normal
+water pressure is very low; please help,water,normal
+water pressure is very low; please review,water,normal
+ضغط المياه منخفض جدًا؛ يرجى المعالجة,water,normal
+ضغط المياه منخفض جدًا؛ يرجى المراجعة,water,normal
+ضغط المياه منخفض جدًا؛ احتاج المساعدة,water,normal
+drain is blocked and water is pooling; please help,water,normal
+drain is blocked and water is pooling; please review,water,normal
+المصرف مسدود وتتجمع المياه؛ يرجى المعالجة,water,normal
+المصرف مسدود وتتجمع المياه؛ يرجى المراجعة,water,normal
+المصرف مسدود وتتجمع المياه؛ احتاج المساعدة,water,normal
+garbage containers are overflowing; please help,waste,normal
+garbage containers are overflowing; please review,waste,normal
+حاويات النفايات ممتلئة وتفيض؛ يرجى المعالجة,waste,normal
+حاويات النفايات ممتلئة وتفيض؛ يرجى المراجعة,waste,normal
+حاويات النفايات ممتلئة وتفيض؛ احتاج المساعدة,waste,normal
+trash has not been collected for days; please help,waste,normal
+trash has not been collected for days; please review,waste,normal
+لم يتم جمع النفايات منذ عدة أيام؛ يرجى المعالجة,waste,normal
+لم يتم جمع النفايات منذ عدة أيام؛ يرجى المراجعة,waste,normal
+لم يتم جمع النفايات منذ عدة أيام؛ احتاج المساعدة,waste,normal
+there is illegal dumping near the park; please help,waste,normal
+there is illegal dumping near the park; please review,waste,normal
+هناك رمي نفايات غير نظامي قرب الحديقة؛ يرجى المعالجة,waste,normal
+هناك رمي نفايات غير نظامي قرب الحديقة؛ يرجى المراجعة,waste,normal
+هناك رمي نفايات غير نظامي قرب الحديقة؛ احتاج المساعدة,waste,normal
+the waste bin is damaged; please help,waste,normal
+the waste bin is damaged; please review,waste,normal
+حاوية النفايات متضررة؛ يرجى المعالجة,waste,normal
+حاوية النفايات متضررة؛ يرجى المراجعة,waste,normal
+حاوية النفايات متضررة؛ احتاج المساعدة,waste,normal
+recycling collection was missed; please help,waste,normal
+recycling collection was missed; please review,waste,normal
+لم يتم جمع مواد إعادة التدوير؛ يرجى المعالجة,waste,normal
+لم يتم جمع مواد إعادة التدوير؛ يرجى المراجعة,waste,normal
+لم يتم جمع مواد إعادة التدوير؛ احتاج المساعدة,waste,normal
+street is full of household waste; please help,waste,normal
+street is full of household waste; please review,waste,normal
+الشارع مليء بالنفايات المنزلية؛ يرجى المعالجة,waste,normal
+الشارع مليء بالنفايات المنزلية؛ يرجى المراجعة,waste,normal
+الشارع مليء بالنفايات المنزلية؛ احتاج المساعدة,waste,normal
+power is out in the building; please help,electricity,normal
+power is out in the building; please review,electricity,normal
+الكهرباء منقطعة في المبنى؛ يرجى المعالجة,electricity,normal
+الكهرباء منقطعة في المبنى؛ يرجى المراجعة,electricity,normal
+الكهرباء منقطعة في المبنى؛ احتاج المساعدة,electricity,normal
+electricity meter is damaged; please help,electricity,normal
+electricity meter is damaged; please review,electricity,normal
+عداد الكهرباء متضرر؛ يرجى المعالجة,electricity,normal
+عداد الكهرباء متضرر؛ يرجى المراجعة,electricity,normal
+عداد الكهرباء متضرر؛ احتاج المساعدة,electricity,normal
+street light is not working; please help,electricity,normal
+street light is not working; please review,electricity,normal
+إنارة الشارع لا تعمل؛ يرجى المعالجة,electricity,normal
+إنارة الشارع لا تعمل؛ يرجى المراجعة,electricity,normal
+إنارة الشارع لا تعمل؛ احتاج المساعدة,electricity,normal
+sparking from electrical cabinet; please help,electricity,normal
+sparking from electrical cabinet; please review,electricity,normal
+شرر يخرج من لوحة الكهرباء؛ يرجى المعالجة,electricity,normal
+شرر يخرج من لوحة الكهرباء؛ يرجى المراجعة,electricity,normal
+شرر يخرج من لوحة الكهرباء؛ احتاج المساعدة,electricity,normal
+frequent power interruptions in the area; please help,electricity,normal
+frequent power interruptions in the area; please review,electricity,normal
+انقطاعات كهرباء متكررة في المنطقة؛ يرجى المعالجة,electricity,normal
+انقطاعات كهرباء متكررة في المنطقة؛ يرجى المراجعة,electricity,normal
+انقطاعات كهرباء متكررة في المنطقة؛ احتاج المساعدة,electricity,normal
+electric cable is exposed; please help,electricity,normal
+electric cable is exposed; please review,electricity,normal
+سلك كهربائي مكشوف؛ يرجى المعالجة,electricity,normal
+سلك كهربائي مكشوف؛ يرجى المراجعة,electricity,normal
+سلك كهربائي مكشوف؛ احتاج المساعدة,electricity,normal
+smoke is coming from an empty building; please help,public_safety,normal
+smoke is coming from an empty building; please review,public_safety,normal
+يوجد دخان يخرج من مبنى مهجور؛ يرجى المعالجة,public_safety,normal
+يوجد دخان يخرج من مبنى مهجور؛ يرجى المراجعة,public_safety,normal
+يوجد دخان يخرج من مبنى مهجور؛ احتاج المساعدة,public_safety,normal
+fire risk near the public park; please help,public_safety,normal
+fire risk near the public park; please review,public_safety,normal
+خطر حريق قرب الحديقة العامة؛ يرجى المعالجة,public_safety,normal
+خطر حريق قرب الحديقة العامة؛ يرجى المراجعة,public_safety,normal
+خطر حريق قرب الحديقة العامة؛ احتاج المساعدة,public_safety,normal
+gas leak smell in the street; please help,public_safety,normal
+gas leak smell in the street; please review,public_safety,normal
+رائحة تسرب غاز في الشارع؛ يرجى المعالجة,public_safety,normal
+رائحة تسرب غاز في الشارع؛ يرجى المراجعة,public_safety,normal
+رائحة تسرب غاز في الشارع؛ احتاج المساعدة,public_safety,normal
+dangerous open hole without barriers; please help,public_safety,normal
+dangerous open hole without barriers; please review,public_safety,normal
+حفرة خطرة مفتوحة دون حواجز؛ يرجى المعالجة,public_safety,normal
+حفرة خطرة مفتوحة دون حواجز؛ يرجى المراجعة,public_safety,normal
+حفرة خطرة مفتوحة دون حواجز؛ احتاج المساعدة,public_safety,normal
+fallen tree blocking emergency access; please help,public_safety,normal
+fallen tree blocking emergency access; please review,public_safety,normal
+شجرة ساقطة تعيق وصول الطوارئ؛ يرجى المعالجة,public_safety,normal
+شجرة ساقطة تعيق وصول الطوارئ؛ يرجى المراجعة,public_safety,normal
+شجرة ساقطة تعيق وصول الطوارئ؛ احتاج المساعدة,public_safety,normal
+explosion sound was heard nearby; please help,public_safety,normal
+explosion sound was heard nearby; please review,public_safety,normal
+تم سماع صوت انفجار بالقرب من الموقع؛ يرجى المعالجة,public_safety,normal
+تم سماع صوت انفجار بالقرب من الموقع؛ يرجى المراجعة,public_safety,normal
+تم سماع صوت انفجار بالقرب من الموقع؛ احتاج المساعدة,public_safety,normal
+I need a building permit application; please help,permits,normal
+I need a building permit application; please review,permits,normal
+أحتاج إلى تقديم طلب رخصة بناء؛ يرجى المعالجة,permits,normal
+أحتاج إلى تقديم طلب رخصة بناء؛ يرجى المراجعة,permits,normal
+أحتاج إلى تقديم طلب رخصة بناء؛ احتاج المساعدة,permits,normal
+how can I renew my shop permit; please help,permits,normal
+how can I renew my shop permit; please review,permits,normal
+كيف أجدد رخصة المحل؛ يرجى المعالجة,permits,normal
+كيف أجدد رخصة المحل؛ يرجى المراجعة,permits,normal
+كيف أجدد رخصة المحل؛ احتاج المساعدة,permits,normal
+permit status has not changed; please help,permits,normal
+permit status has not changed; please review,permits,normal
+حالة الرخصة لم تتغير؛ يرجى المعالجة,permits,normal
+حالة الرخصة لم تتغير؛ يرجى المراجعة,permits,normal
+حالة الرخصة لم تتغير؛ احتاج المساعدة,permits,normal
+there is a mistake in my permit record; please help,permits,normal
+there is a mistake in my permit record; please review,permits,normal
+هناك خطأ في بيانات الرخصة؛ يرجى المعالجة,permits,normal
+هناك خطأ في بيانات الرخصة؛ يرجى المراجعة,permits,normal
+هناك خطأ في بيانات الرخصة؛ احتاج المساعدة,permits,normal
+I want to request a temporary event permit; please help,permits,normal
+I want to request a temporary event permit; please review,permits,normal
+أرغب في طلب رخصة فعالية مؤقتة؛ يرجى المعالجة,permits,normal
+أرغب في طلب رخصة فعالية مؤقتة؛ يرجى المراجعة,permits,normal
+أرغب في طلب رخصة فعالية مؤقتة؛ احتاج المساعدة,permits,normal
+what documents are required for a permit; please help,permits,normal
+what documents are required for a permit; please review,permits,normal
+ما المستندات المطلوبة للرخصة؛ يرجى المعالجة,permits,normal
+ما المستندات المطلوبة للرخصة؛ يرجى المراجعة,permits,normal
+ما المستندات المطلوبة للرخصة؛ احتاج المساعدة,permits,normal
+fire emergency at the site,public_safety,urgent
+حالة حريق طارئة في الموقع,public_safety,urgent
+gas leak emergency,public_safety,urgent
+حالة تسرب غاز طارئة,public_safety,urgent
+smoke and immediate danger,public_safety,urgent
+دخان وخطر فوري,public_safety,urgent
+explosion and public danger,public_safety,urgent
+انفجار وخطر على الناس,public_safety,urgent
+power lines are sparking and people are nearby,electricity,urgent
+major water leak is flooding the road,water,urgent
+garbage fire near houses,waste,urgent
+road collapse is blocking traffic,roads,urgent
