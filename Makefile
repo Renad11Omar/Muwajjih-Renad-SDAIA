@@ -2,6 +2,7 @@
 
 install:
 	python -m pip install -r requirements-dev.lock
+	python -m pip install -e .
 	python scripts/train_model.py
 
 train:

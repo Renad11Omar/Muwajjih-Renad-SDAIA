@@ -7,7 +7,7 @@
 - Branch coverage over domain/service/api is `97.69%` in the current validation environment, above the 80% course gate.
 - `python -m compileall` passes for source, tests and scripts.
 - The custom architecture guard passes: `architecture_check_ok`.
-- Git history contains 7 logical commits on `main`.
+- Git history contains 8 logical commits on `main`.
 - `git diff --check` is clean.
 
 ## Requires a real Docker/GitHub environment
