@@ -1,4 +1,4 @@
-from typing import Any
+from typing import Annotated, Any
 
 from fastapi import APIRouter, Depends, FastAPI, HTTPException, Request
 
@@ -46,7 +46,9 @@ def ready(request: Request) -> Envelope[dict[str, str]]:
 
 @router.post("/predict", response_model=Envelope[DecisionData])
 def predict(
-    body: ComplaintRequest, request: Request, scorer: TriageScorer = Depends(get_scorer)
+    body: ComplaintRequest,
+    request: Request,
+    scorer: Annotated[TriageScorer, Depends(get_scorer)],
 ) -> Envelope[DecisionData]:
     decision = scorer.score(Complaint(body.complaint_id, body.text))
     return Envelope(
@@ -64,7 +66,9 @@ def predict(
 
 @router.post("/predictions:batch", response_model=Envelope[list[DecisionData]])
 def predict_batch(
-    body: BatchRequest, request: Request, scorer: TriageScorer = Depends(get_scorer)
+    body: BatchRequest,
+    request: Request,
+    scorer: Annotated[TriageScorer, Depends(get_scorer)],
 ) -> Envelope[list[DecisionData]]:
     items = []
     for complaint in body.items:

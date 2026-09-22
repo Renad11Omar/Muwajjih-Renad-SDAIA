@@ -2,7 +2,7 @@ services:
   muwajjih-api:
     platform: linux/amd64
     build: .
-    image: muwajjih:dev
+    image: "muwajjih:${MUWAJJIH_IMAGE_TAG:-dev}"
     ports:
       - "8000:8000"
     environment:

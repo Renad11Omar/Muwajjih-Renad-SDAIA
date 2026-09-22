@@ -67,7 +67,7 @@ no_implicit_optional = true
 
 [tool.importlinter]
 root_package = "muwajjih"
-include_external_packages = false
+include_external_packages = true
 
 [[tool.importlinter.contracts]]
 name = "Domain stays independent"

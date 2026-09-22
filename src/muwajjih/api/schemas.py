@@ -1,11 +1,8 @@
-from typing import Generic, TypeVar
 from uuid import UUID
 
 from pydantic import BaseModel, ConfigDict, Field
 
 from muwajjih.domain.entities import Department, Priority
-
-T = TypeVar("T")
 
 
 class ComplaintRequest(BaseModel):
@@ -30,7 +27,7 @@ class ErrorData(BaseModel):
     details: list[dict[str, str]] = Field(default_factory=list)
 
 
-class Envelope(BaseModel, Generic[T]):
+class Envelope[T](BaseModel):
     model_config = ConfigDict(extra="forbid")
 
     trace_id: UUID

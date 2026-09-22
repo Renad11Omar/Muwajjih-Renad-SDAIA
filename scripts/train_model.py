@@ -64,7 +64,11 @@ DEPARTMENTS: dict[str, list[tuple[str, str]]] = {
 }
 
 NORMAL_SUFFIXES = [
-    "please help", "please review", "يرجى المعالجة", "يرجى المراجعة", "احتاج المساعدة",
+    "please help",
+    "please review",
+    "يرجى المعالجة",
+    "يرجى المراجعة",
+    "احتاج المساعدة",
 ]
 URGENT_SEEDS = [
     ("fire emergency at the site", "حالة حريق طارئة في الموقع"),

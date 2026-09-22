@@ -1,8 +1,9 @@
 import logging
 import time
+from collections.abc import AsyncIterator, Awaitable, Callable
 from contextlib import asynccontextmanager
-from datetime import datetime, timezone
-from typing import Any, Awaitable, Callable
+from datetime import UTC, datetime
+from typing import Any
 from uuid import UUID, uuid4
 
 from fastapi import FastAPI, HTTPException, Request
@@ -40,7 +41,7 @@ def _error_payload(
 
 
 @asynccontextmanager
-async def lifespan(app: FastAPI):
+async def lifespan(app: FastAPI) -> AsyncIterator[None]:
     settings = Settings()
     configure_logging(settings.log_level)
     started = time.perf_counter()
@@ -50,7 +51,7 @@ async def lifespan(app: FastAPI):
     if not cache.ping():
         raise RuntimeError("Redis readiness check failed")
     set_dependencies(app, model=model, cache=cache, settings=settings)
-    app.state.started_at = datetime.now(timezone.utc)
+    app.state.started_at = datetime.now(UTC)
     app.state.ready = True
     logger.info(
         "startup_complete",

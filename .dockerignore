@@ -6,8 +6,6 @@ tests/
 data/
 notebooks/
 .env
-*.md
-!.README.md
 .github/
 .pytest_cache/
 .ruff_cache/

@@ -24,7 +24,7 @@ typecheck:
 	mypy src
 
 arch:
-	lint-imports
+	PYTHONPATH=src lint-imports
 
 image:
 	docker build --platform linux/amd64 -t muwajjih:dev .

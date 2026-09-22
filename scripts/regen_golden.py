@@ -45,13 +45,15 @@ def main() -> None:
         writer.writerow(["complaint_id", "text", "department", "priority", "confidence"])
         for complaint_id, text in CASES:
             decision = scorer.score(Complaint(complaint_id, text))
-            writer.writerow([
-                complaint_id,
-                text,
-                decision.department.value,
-                decision.priority.value,
-                f"{decision.confidence:.8f}",
-            ])
+            writer.writerow(
+                [
+                    complaint_id,
+                    text,
+                    decision.department.value,
+                    decision.priority.value,
+                    f"{decision.confidence:.8f}",
+                ]
+            )
     print(f"wrote {GOLDEN}")
 
 

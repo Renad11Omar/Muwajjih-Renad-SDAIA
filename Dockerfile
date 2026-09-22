@@ -22,12 +22,12 @@ RUN find /opt/venv/lib/python3.12/site-packages -type d \( -name tests -o -name 
 FROM python:3.12-slim AS runtime
 RUN useradd --create-home --uid 10001 appuser
 WORKDIR /app
-COPY --from=builder /opt/venv/lib/python3.12/site-packages /opt/venv/lib/python3.12/site-packages
+COPY --from=builder /opt/venv /opt/venv
 COPY --from=builder /app/src /app/src
 COPY --from=builder /app/pyproject.toml /app/pyproject.toml
 COPY models/muwajjih_v1.joblib /models/muwajjih_v1.joblib
 
-ENV PYTHONPATH="/app/src" \
+ENV PATH="/opt/venv/bin:$PATH" PYTHONPATH="/app/src" \
     PATH="/opt/venv/bin:$PATH" \
     PYTHONUNBUFFERED=1
 USER appuser

@@ -84,6 +84,7 @@ def test_batch_extension_respects_contract(client_factory):
     assert response.status_code == 200
     assert len(response.json()["data"]) == 2
 
+
 @pytest.mark.integration
 def test_health_and_forwarded_trace_id(client_factory):
     with client_factory() as client:
@@ -107,6 +108,7 @@ def test_invalid_trace_id_is_replaced(client_factory):
 @pytest.mark.integration
 def test_predict_without_scorer_returns_503():
     from fastapi.testclient import TestClient
+
     from muwajjih.api.app import create_app
 
     app = create_app(enable_lifespan=False)
@@ -119,9 +121,11 @@ def test_predict_without_scorer_returns_503():
     assert response.status_code == 503
     assert response.json()["error"]["code"] == "HTTP_ERROR"
 
+
 @pytest.mark.integration
 def test_lifespan_loads_model_and_checks_cache(monkeypatch):
     from fastapi.testclient import TestClient
+
     import muwajjih.api.app as app_module
 
     class FakeLoadedModel(ConstantModel):
@@ -133,12 +137,16 @@ def test_lifespan_loads_model_and_checks_cache(monkeypatch):
     class FakeRedis:
         def __init__(self, url):
             self.url = url
+
         def ping(self):
             return True
+
         def get(self, key):
             return None
+
         def set(self, key, value, ttl_seconds=300):
             return None
+
         def close(self):
             return None
 
@@ -151,6 +159,7 @@ def test_lifespan_loads_model_and_checks_cache(monkeypatch):
         response = client.get("/v1/ready")
     assert response.status_code == 200
     assert response.json()["data"]["status"] == "ready"
+
 
 @pytest.mark.integration
 def test_malformed_corpus_rejected(client_factory):
@@ -175,8 +184,7 @@ def test_malformed_corpus_rejected(client_factory):
 @pytest.mark.integration
 def test_batch_extension_is_bounded(client_factory):
     items = [
-        {"complaint_id": f"MWJ-B-{i:03d}", "text": "road pothole near school"}
-        for i in range(33)
+        {"complaint_id": f"MWJ-B-{i:03d}", "text": "road pothole near school"} for i in range(33)
     ]
     with client_factory() as client:
         response = client.post("/v1/predictions:batch", json={"items": items})

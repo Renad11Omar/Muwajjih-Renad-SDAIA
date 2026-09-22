@@ -1,6 +1,8 @@
+from dataclasses import FrozenInstanceError
+
 import pytest
 
-from muwajjih.domain.entities import Complaint, Department, Priority, RawPrediction
+from muwajjih.domain.entities import Department, Priority, RawPrediction
 from muwajjih.domain.policies import (
     apply_priority_policy,
     contains_emergency_signal,
@@ -38,13 +40,15 @@ def test_emergency_policy(priority, text, expected):
 
 @pytest.mark.unit
 def test_complaint_is_immutable(sample_complaint):
-    with pytest.raises(Exception):
+    with pytest.raises(FrozenInstanceError):
         sample_complaint.text = "changed"
+
 
 @pytest.mark.unit
 def test_json_logging_formatter_emits_trace_id():
     import json
     import logging
+
     from muwajjih.api.logging_setup import JsonFormatter
 
     record = logging.LogRecord("test", logging.INFO, __file__, 1, "hello", (), None)

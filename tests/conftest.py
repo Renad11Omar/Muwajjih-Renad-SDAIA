@@ -8,10 +8,7 @@ from muwajjih.api.app import create_app
 from muwajjih.api.routes import get_scorer
 from muwajjih.domain.entities import Complaint
 from muwajjih.service.scorer import TriageScorer
-
-
-from tests.helpers import ConstantModel, FakeCache
-
+from tests.helpers import ConstantModel
 
 
 @pytest.fixture
