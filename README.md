@@ -100,3 +100,7 @@ The project includes a bounded batch endpoint, `POST /v1/predictions:batch`, cap
 This project was completed as part of the SDA-AIE-113 — Software Engineering Practices for AI Systems training program at SDAIA Academy.
 
 Official SDAIA Academy GitHub: [SDAIA Academy](https://github.com/SDAIAcademy)
+
+## SDAIA Academy
+
+[@SDAIAAcademy](https://github.com/SDAIAAcademy)
