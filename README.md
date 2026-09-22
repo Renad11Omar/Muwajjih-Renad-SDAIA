@@ -94,3 +94,9 @@ The project includes a bounded batch endpoint, `POST /v1/predictions:batch`, cap
 - Docker readiness targets `/v1/ready`.
 - The image is built with a multi-stage Dockerfile and `linux/amd64` in Compose for the course's Apple Silicon/x86 compatibility path.
 - CI publishes only immutable commit-SHA tags to GHCR; no `:latest` tag is used.
+
+## Training Program
+
+This project was completed as part of the SDA-AIE-113 — Software Engineering Practices for AI Systems training program at SDAIA Academy.
+
+Official SDAIA Academy GitHub: [SDAIA Academy](https://github.com/SDAIAcademy)
