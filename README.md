@@ -97,10 +97,8 @@ The project includes a bounded batch endpoint, `POST /v1/predictions:batch`, cap
 
 ## Training Program
 
-This project was completed as part of the SDA-AIE-113 — Software Engineering Practices for AI Systems training program at SDAIA Academy.
+This project was completed as part of the SDA-AIE-113 — Software Engineering Practices for AI Systems training program at SDAIA Academy, under the supervision of Abdullah Khalid AlShahrani.
 
-Official SDAIA Academy GitHub: [SDAIA Academy](https://github.com/SDAIAcademy)
+The portfolio demonstrates the practical application of software engineering practices for AI systems — building a production-style AI/ML service through clean architecture, a well-defined API contract, containerization, a layered automated testing suite, a CI/CD pipeline with branch protection, and safe configuration, secrets, and logging management.
 
-## SDAIA Academy
-
-[@SDAIAAcademy](https://github.com/SDAIAAcademy)
+Official SDAIA Academy GitHub: https://github.com/SDAIAAcademy
